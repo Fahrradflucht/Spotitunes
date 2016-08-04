@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Spotitunes",
+  "description": "This extension translates iTunes to Spotify links and vice versa.",
+  "version": "0.1",
+  "background": {
+    "scripts": [
+      "intercept.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.itunes.apple.com/*",
+    "https://*.spotify.com/*"
+  ]
+}
